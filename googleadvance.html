@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <style>
+        .submit{
+            background-color: #8ab4f8;
+            border-color: #8ab4f8;
+            color: #202124;
+        }
+        a:link {
+                text-decoration:none;
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+        #image{
+            width: 1000px;
+            height:auto;
+        }
+        </style>
+    </head>
+    <body style = "margin-left:40px">
+        <div style = "text-align: right; margin:20px; font-size: 25px;">
+            <a href = "index.html">Back to Google Search</a>
+        </div>
+        <h1 style ="color:red">
+            Tìm kiếm nâng cao
+            <hr>
+        </h1>
+        <h2>
+            Tìm trang có...
+        </h2>
+        <form action="https://www.google.com/search">
+            Tất cả các từ này:
+            <input name = "q" type = "text" autocomplete = "off">
+            <p></p>
+            Từ hoặc cụm từ chính xác này:
+            <input name = "q" type = "text" autocomplete = "off">
+            <p></p>
+            Bất kỳ từ nào trong số này:
+            <input name = "q" type = "text" autocomplete = "off">
+            <p></p>
+            Không từ nào trong số này:
+            <input name = "q" type = "text" autocomplete = "off">
+            <p></p>
+            <input class="submit" type = "button" value ="Tìm kiếm nâng cao">
+        </form>
+    </body>
+</html>
